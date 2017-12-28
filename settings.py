@@ -11,18 +11,18 @@ class Settings():
         self.ship_limit = 3
 
         #子弹设置
-        self.bullet_width = 300
+        self.bullet_width = 5
         self.bullet_height = 15
         self.bullet_color = 60, 60, 60
         self.bullets_allowed = 3
 
         #外星人设置
-        self.fleet_drop_speed = 30
+        self.fleet_drop_speed = 5
         #计分
         self.alien_points = 50
 
         #以什么样的速度加快游戏节奏
-        self.speedup_scale = 2
+        self.speedup_scale = 1.2
 
         #分数增长速度
         self.score_scale = 1.5
